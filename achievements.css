@@ -86,7 +86,7 @@
 
         .achievements-section {
             padding: 4rem 2rem;
-            background-color: #f8fafc;
+ background: linear-gradient(135deg, rgb(63, 63, 142) 0%, rgb(15, 15, 32) 100%);
         }
 
         .achievements-container {
@@ -95,10 +95,11 @@
         }
 
         .achievements-container h2 {
-            font-size: 2.5rem;
+            font-style: italic;
+            font-size: 40px;
             text-align: center;
             margin-bottom: 3rem;
-            color: #1e293b;
+            color: white;
         }
 
         .achievement-card {
@@ -117,13 +118,13 @@
         }
 
         .achievement-card p {
-            color: #64748b;
+            color: #465364;
             line-height: 1.8;
         }
 
         .achievement-date {
             display: block;
             margin-top: 0.8rem;
-            color: #94a3b8;
+            color: #5d6878;
             font-style: italic;
         }

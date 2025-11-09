@@ -9,8 +9,7 @@
     background-color:white;
     list-style: none;
     gap: 80px;
-    padding: 2px;
-    margin: 10px;
+    margin: 0px;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -25,10 +24,14 @@
     color:rgb(6, 6, 6);
     font-weight:700;
 }
+body{
+      background: linear-gradient(135deg, rgb(63, 63, 142) 0%, rgb(15, 15, 32) 100%);
+}
 .intro {
     padding-top: 100px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
 }
 .intro h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -48,6 +51,7 @@
     text-align: left;
 }
 .text-column h1{
+    color: rgb(255,180,100);
     font-size: 50px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 40px;
@@ -64,6 +68,7 @@
     width: 350px;
     height: 350px;
     object-fit: cover;
+
 }
 #btn {
     background-color: rgb(255,180,100);
